@@ -6,7 +6,7 @@ const Footer = () => {
     <>
       <div className="w-[100vw] bg-[#c7e6e2]  pt-6 pb-6 pl-[5vw] pr-[5vw] mx-auto  grid grid-cols-1 md:grid-cols-[30%_70%]  gap-4 items-center justify-between ">
         <div className="left flex flex-col">
-          <Link to="/" className="w-[50vw] md:w-[25vw] flex flex-row ">
+          <Link to="/eyantra" className="w-[50vw] md:w-[25vw] flex flex-row ">
             <img src="./image/geck.gif" alt="Logo" className=" h-20 " />
             <img src="./image/e_yantra.svg" alt="Logo" className=" " />
           </Link>
@@ -29,39 +29,39 @@ const Footer = () => {
 
         <div className="right w-full ">
           <div className=" text-black grid grid-cols-1 lg:grid-cols-3  items-center gap-3 w-[80%]   mx-auto">
-            <Link to="/about" className="hover:text-gray-400 w-fit ">
+            <Link to="/eyantra/about" className="hover:text-gray-400 w-fit ">
               About
             </Link>
-            <Link to="/coordinator" className="hover:text-gray-400">
+            <Link to="/eyantra/coordinator" className="hover:text-gray-400">
               Coordinator
             </Link>
-            <Link to="/video-lectures" className="hover:text-gray-400">
+            <Link to="/eyantra/video-lectures" className="hover:text-gray-400">
               Video Lectures
             </Link>
-            <Link to="/onGoingProjects" className="hover:text-gray-400">
+            <Link to="/eyantra/onGoingProjects" className="hover:text-gray-400">
               On going Projects
             </Link>
-            <Link to="/exhibition" className="hover:text-gray-400">
+            <Link to="/eyantra/exhibition" className="hover:text-gray-400">
               Exhibition
             </Link>
-            <Link to="/competition" className="hover:text-gray-400">
+            <Link to="/eyantra/competition" className="hover:text-gray-400">
               Competition
             </Link>
 
-            <Link to="/collaboration" className="hover:text-gray-400">
+            <Link to="/eyantra/collaboration" className="hover:text-gray-400">
               Collaboration
             </Link>
-            <Link to="/student-representatives" className="hover:text-gray-400">
+            <Link to="/eyantra/student-representatives" className="hover:text-gray-400">
               Representatives
             </Link>
-            <Link to="/participants" className="hover:text-gray-400">
+            <Link to="/eyantra/participants" className="hover:text-gray-400">
               Participants
             </Link>
 
-            <Link to="/contact" className="hover:text-gray-400">
+            <Link to="/eyantra/contact" className="hover:text-gray-400">
               Contact Us
             </Link>
-            <Link to="/developer" className="hover:text-gray-400">
+            <Link to="/eyantra/developer" className="hover:text-gray-400">
               Developer
             </Link>
           </div>

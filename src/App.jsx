@@ -57,19 +57,19 @@ function App() {
       <main className="flex-grow">
         <Routes>
           <Route path="/" element={<Landing />} />
-          <Route path="/about" element={<Home />} />
-          <Route path="/coordinator" element={<Coordinator />} />
-          <Route path="/student-representatives" element={<Representatives />} />
-          <Route path="/developer" element={<Devloper />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/participants" element={<Participants />} />
-          <Route path="/onGoingProjects" element={<OnGoing />} />
-          <Route path="/collaboration" element={<Collabration />} />
-          <Route path="/facilities" element={<Facilities />} />
-          <Route path="/exhibition" element={<Exhibition />} />
-          <Route path="/competition" element={<Competition />} />
-          <Route path="/documents" element={<Competition />} />
-          <Route path="/video-lectures" element={<Competition />} />
+          <Route path="/eyantra/about" element={<Home />} />
+          <Route path="/eyantra/coordinator" element={<Coordinator />} />
+          <Route path="/eyantra/student-representatives" element={<Representatives />} />
+          <Route path="/eyantra/developer" element={<Devloper />} />
+          <Route path="/eyantra/contact" element={<Contact />} />
+          <Route path="/eyantra/participants" element={<Participants />} />
+          <Route path="/eyantra/onGoingProjects" element={<OnGoing />} />
+          <Route path="/eyantra/collaboration" element={<Collabration />} />
+          <Route path="/eyantra/facilities" element={<Facilities />} />
+          <Route path="/eyantra/exhibition" element={<Exhibition />} />
+          <Route path="/eyantra/competition" element={<Competition />} />
+          <Route path="/eyantra/documents" element={<Competition />} />
+          <Route path="/eyantra/video-lectures" element={<Competition />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
       </main>
