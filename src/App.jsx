@@ -56,7 +56,7 @@ function App() {
       <Navbar />
       <main className="flex-grow">
         <Routes>
-          <Route path="/" element={<Landing />} />
+          <Route path="/eyantra" element={<Landing />} />
           <Route path="/eyantra/about" element={<Home />} />
           <Route path="/eyantra/coordinator" element={<Coordinator />} />
           <Route path="/eyantra/student-representatives" element={<Representatives />} />
