@@ -3,22 +3,22 @@ import React from "react";
 const project = [
   {
     name: "Robotic Arm (Prototype)",
-    img: "/image/Gallery/5.jpg",
+    img: "/image/5.jpg",
     team: ["Kamal Deep Raj", "Ashish Kumar Singh", "Modassir Zahid", "Radhika Kumari","Khushnandan Kumar"]
   },
   {
     name: "Biometric Data on Website",
-    img: "/image/Gallery/1.jpg",
+    img: "/image/1.jpg",
     team: ["Akshay Kuamr", "Kunal Kuamr", "Alisha Kumari", "Ritu Kumari","Mahima Kumari"]
   },
   {
     name: "Intelligent Street Lighting System",
-    img: "/image/Gallery/3.jpg",
+    img: "/image/3.jpg",
     team: ["Hrithik Raj", "Aryan Kumar", "Aparna Kumari", "Komal Poddar"]
   },
   {
     name: "Smart Dustbin",
-    img: "/image/Gallery/2.jpg",
+    img: "/image/2.jpg",
     team: ["Shahid Munir", "Ankita Kumari", "Sweta Singh", "Jyotsna"]
   },
   {

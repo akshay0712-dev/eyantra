@@ -32,12 +32,12 @@ const Landing = () => {
           <div className="w-full lg:w-1/2">
             <img
               className="rounded-3xl mb-8 w-full lg:w-auto px-4"
-              src="/image/Gallery/3.jpg"
+              src="/image/3.jpg"
               alt="Lab Image"
             />
             <img
               className="rounded-3xl mb-8 w-full lg:w-auto px-4"
-              src="/image/Gallery/2.jpg"
+              src="/image/2.jpg"
               alt=""
             />
           </div>
@@ -88,7 +88,7 @@ const Landing = () => {
             </ul>
             <img
               className="rounded-3xl w-full lg:w-auto px-2 md:px-0 mt-2"
-              src="/image/Gallery/4.jpg"
+              src="/image/4.jpg"
               alt="Lab Image"
             />
           </div>

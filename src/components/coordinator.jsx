@@ -45,7 +45,7 @@ const Coordinator = () => {
           >
             <div className="w-28 h-28 rounded-full overflow-hidden mb-0 mt-6 transition-all duration-500 group-hover:rounded-none group-hover:h-3/5 group-hover:mt-0 group-hover:p-0 group-hover:w-full">
               <img
-                src={`/image/avatar/${coordinator.img}`}
+                src={`/image/${coordinator.img}`}
                 alt={coordinator.name}
                 className="w-full h-full object-cover transition-all duration-500"
               />
