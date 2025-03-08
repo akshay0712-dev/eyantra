@@ -20,7 +20,7 @@ import Participants from "./components/participants.jsx";
 import OnGoing from "./components/onGoing.jsx";
 import Facilities from "./components/facilities.jsx";
 import Collabration from "./components/collabration.jsx";
-import Exhibition from "./components/Exhibition.jsx";
+import Exhibition from "./components/exhibition.jsx";
 import Competition from "./components/competition.jsx";
 function ErrorPage() {
   return (
