@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import axios from "axios"; // <-- Missing import
 import { motion } from "framer-motion";
 import { fadeIn } from "../shared/varients";
-import FloatingManageDevButton from "../Ui/FloatingManageDevButton";
 import { useNavigate } from "react-router-dom";
 
 const Developer = () => {
