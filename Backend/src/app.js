@@ -9,7 +9,8 @@ const app = express()
 const allowedOrigins = [
   "http://localhost:5174",
   "http://localhost:5173",
-  "https://eyantra-gamma.vercel.app"
+  "https://eyantra-gamma.vercel.app",
+  "https://eyantra.akshay-dev.in"
 ];
 
 // CORS options
